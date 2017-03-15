@@ -3,9 +3,9 @@
 -export([start_link/0, init/1]).
 
 start_link() ->
-	 Name = pool,
+	 Name = ppool,
 	 Limit = 10,
- 	 MFA = ok,
+ 	 MFA = {pool_app_sup, start_link,[]},
 	supervisor:start_link(?MODULE, {Name, Limit, MFA}).
  
 init({Name, Limit, MFA}) ->
