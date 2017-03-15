@@ -1,0 +1,8 @@
+{release,{"pool_app_release","1"},
+         {erts,"7.3"},
+         [{stdlib,"2.8"},
+          {kernel,"4.2"},
+          {worker_pool,"2.2.2"},
+          {pool_app,"0.1.0"},
+          {sasl,"2.7"},
+          {runtime_tools,"1.9.3"}]}. 
